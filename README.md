@@ -1,4 +1,4 @@
-# javselcrack.github.io
+# eljavs.github.io
 
 Portfolio of Javier Cepeda Bátiz, game designer and programmer. Plain HTML/CSS/JS served by GitHub Pages; no build step.
 
