@@ -24,7 +24,7 @@
       <p class="tagline">Game Designer &amp; Programmer</p>
       <p class="lede">I build mechanics, systems and levels across Unreal Engine, Unity and Godot, from VR research titles to a released arcade game supported with post-launch patches.</p>
       <nav class="links">
-        <a class="btn primary" href="#projects">Projects</a>
+        <a class="btn primary" href="#current">Projects</a>
         <a class="btn" href="mailto:javiercepeda.games@gmail.com">Email</a>
         <a class="btn" href="https://eljavs.itch.io/" target="_blank" rel="noopener">itch.io</a>
         <a class="btn" href="https://www.linkedin.com/in/javier-cepbat/" target="_blank" rel="noopener">LinkedIn</a>
@@ -35,16 +35,66 @@
 
 <main>
 
-  <!-- ─── Projects ───────────────────────────────────────────────
-       To add a project, copy one <article class="project"> block.
+  <!-- ─── Current projects ──────────────────────────────────────
+       Media: swap the <div class="placeholder"> for a .yt video, a .gallery or an <img class="cover">.
+       Steam: replace the "Coming soon" span with
+       <a class="btn primary" href="STEAM_URL" target="_blank" rel="noopener">Wishlist on Steam</a> -->
+  <section id="current" class="wrap">
+    <h2 class="section-title">Current Projects</h2>
+
+    <article class="project current">
+      <div class="media">
+        <div class="placeholder">Screenshots &amp; trailer coming soon</div>
+      </div>
+      <div class="project-body">
+        <span class="badge">Steam release in development</span>
+        <h3><a href="games/alexandria.html">Alexandria</a></h3>
+        <p class="meta">In development</p>
+        <p>A first-person parkour platformer crossed with an incremental game. Run timed courses through a drained, colorless city, shoot targets, earn currency and buy upgrades that unlock new movement, and hire clones that replay your routes for passive income. Color floods back into the world as you explore it.</p>
+        <dl class="facts">
+          <div><dt>Role</dt><dd>Solo Developer</dd></div>
+          <div><dt>Engine</dt><dd>Godot</dd></div>
+          <div><dt>Platform</dt><dd>PC (Steam)</dd></div>
+        </dl>
+        <div class="actions">
+          <a class="play" href="games/alexandria.html">More about the game →</a>
+          <span class="soon">Steam page coming soon</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="project current">
+      <div class="media">
+        <div class="placeholder">Screenshots &amp; trailer coming soon</div>
+      </div>
+      <div class="project-body">
+        <span class="badge">Steam release in development</span>
+        <h3><a href="games/unjustified.html">Unjustified</a></h3>
+        <p class="meta">In development</p>
+        <p>Description coming soon.</p>
+        <dl class="facts">
+          <div><dt>Role</dt><dd>TBD</dd></div>
+          <div><dt>Engine</dt><dd>TBD</dd></div>
+          <div><dt>Platform</dt><dd>PC (Steam)</dd></div>
+        </dl>
+        <div class="actions">
+          <a class="play" href="games/unjustified.html">More about the game →</a>
+          <span class="soon">Steam page coming soon</span>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ─── Previous projects ──────────────────────────────────────
+       To add a project, copy one <article class="project"> block and make a page in games/.
        Video: <div class="yt" data-id="YOUTUBE_ID"></div>
        Gallery: <div class="gallery"> with <img> tags, any count. -->
   <section id="projects" class="wrap">
-    <h2 class="section-title">Projects</h2>
+    <h2 class="section-title">Previous Projects</h2>
 
     <article class="project">
       <div class="project-body">
-        <h3>Hazard VR</h3>
+        <h3><a href="games/hazard-vr.html">Hazard VR</a></h3>
         <p class="meta">VU Amsterdam (Contract) · May 2025 – Feb 2026</p>
         <p>One of the main developers on a VR title for VU Amsterdam. Designed and implemented the core gameplay mechanics and interaction systems, and owned features from concept through implementation, iterating on playtests and stakeholder feedback.</p>
         <dl class="facts">
@@ -52,6 +102,7 @@
           <div><dt>Engine</dt><dd>Unity</dd></div>
           <div><dt>Platform</dt><dd>Windows VR</dd></div>
         </dl>
+        <a class="play" href="games/hazard-vr.html">Read more &amp; post-mortem →</a>
       </div>
     </article>
 
@@ -66,7 +117,7 @@
         </div>
       </div>
       <div class="project-body">
-        <h3>VARM Simulator</h3>
+        <h3><a href="games/varm-simulator.html">VARM Simulator</a></h3>
         <p class="meta">VU Amsterdam · University of Twente · FOSC-ERANET · Sept – Nov 2024</p>
         <p>A VR serious game that turns saline agriculture research into interactive learning for students, farmers and policymakers, built on insights from the EU projects SALAD and Trustfarm. I joined mid-development and helped bring it to completion on a fixed deadline, designing and implementing gameplay content grounded in that research.</p>
         <dl class="facts">
@@ -74,6 +125,7 @@
           <div><dt>Engine</dt><dd>Godot</dd></div>
           <div><dt>Platform</dt><dd>Standalone VR</dd></div>
         </dl>
+        <a class="play" href="games/varm-simulator.html">Read more &amp; post-mortem →</a>
         <a class="play" href="https://lotcam.itch.io/varm-simulator" target="_blank" rel="noopener">View on itch.io →</a>
       </div>
     </article>
@@ -88,7 +140,7 @@
         </div>
       </div>
       <div class="project-body">
-        <h3>Spare Me the Chaos</h3>
+        <h3><a href="games/spare-me-the-chaos.html">Spare Me the Chaos</a></h3>
         <p class="meta">Capstone project · 7-person team</p>
         <p>An arcade-style bowling game where the player traverses wacky bowling environments (city alleyways, parks, factories, evil laboratories) aiming for a high score. Released on itch.io with a 5.0 rating and supported post-launch with four live patches.</p>
         <dl class="facts">
@@ -96,6 +148,7 @@
           <div><dt>Engine</dt><dd>Unreal Engine, Photoshop</dd></div>
           <div><dt>Platform</dt><dd>PC</dd></div>
         </dl>
+        <a class="play" href="games/spare-me-the-chaos.html">Read more &amp; post-mortem →</a>
         <a class="play" href="https://one-shot-melee.itch.io/spare-me-the-chaos" target="_blank" rel="noopener">Play on itch.io →</a>
       </div>
     </article>
@@ -111,7 +164,7 @@
         </div>
       </div>
       <div class="project-body">
-        <h3>Inc[o]gnita</h3>
+        <h3><a href="games/incognita.html">Inc[o]gnita</a></h3>
         <p class="meta">Solo project</p>
         <p>A PS1-styled horror game about being trapped in an office. Talk to the strange denizens of the Inc[o]gnita offices to uncover the truth of your horrible situation. Solo-developed: all design, code and art.</p>
         <dl class="facts">
@@ -119,6 +172,7 @@
           <div><dt>Engine</dt><dd>Godot, Maya, Photoshop</dd></div>
           <div><dt>Platform</dt><dd>PC</dd></div>
         </dl>
+        <a class="play" href="games/incognita.html">Read more &amp; post-mortem →</a>
         <a class="play" href="https://eljavs.itch.io/incognita" target="_blank" rel="noopener">Play on itch.io →</a>
       </div>
     </article>
@@ -128,7 +182,7 @@
         <img class="cover" src="assets/img/twist-my-arms.jpg" alt="Twist My Arms key art" loading="lazy">
       </div>
       <div class="project-body">
-        <h3>Twist My Arms</h3>
+        <h3><a href="games/twist-my-arms.html">Twist My Arms</a></h3>
         <p class="meta">Co-op VR</p>
         <p>An asymmetric co-op VR puzzle game where communication is key: one player controls the actions while the other can see. I designed mechanics around communication and information asymmetry.</p>
         <dl class="facts">
@@ -136,6 +190,7 @@
           <div><dt>Engine</dt><dd>Unity</dd></div>
           <div><dt>Platform</dt><dd>PC VR</dd></div>
         </dl>
+        <a class="play" href="games/twist-my-arms.html">Read more &amp; post-mortem →</a>
         <a class="play" href="https://cracklycms.itch.io/twist-my-arms-why-dont-you" target="_blank" rel="noopener">Play on itch.io →</a>
       </div>
     </article>
@@ -145,7 +200,7 @@
         <img class="cover" src="assets/img/flashing.jpg" alt="Flashing Before My Eyes screenshot" loading="lazy">
       </div>
       <div class="project-body">
-        <h3>Flashing Before My Eyes</h3>
+        <h3><a href="games/flashing-before-my-eyes.html">Flashing Before My Eyes</a></h3>
         <p class="meta">Experimental</p>
         <p>An emotive journey of a person about to die, seeing their life flash before their eyes. Uses Gaussian Splatting in Unreal Engine to achieve dreamlike visuals.</p>
         <dl class="facts">
@@ -153,6 +208,7 @@
           <div><dt>Engine</dt><dd>Unreal Engine, Postshot</dd></div>
           <div><dt>Platform</dt><dd>PC</dd></div>
         </dl>
+        <a class="play" href="games/flashing-before-my-eyes.html">Read more &amp; post-mortem →</a>
       </div>
     </article>
 
