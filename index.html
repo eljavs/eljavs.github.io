@@ -36,7 +36,7 @@
 <main>
 
   <!-- ─── Current projects ──────────────────────────────────────
-       Media: swap the <div class="placeholder"> for a .yt video, a .gallery or an <img class="cover">.
+       Media: swap the placeholder div for a .yt video, a .gallery, an <img class="cover"> or a .clip video.
        Steam: replace the "Coming soon" span with
        <a class="btn primary" href="STEAM_URL" target="_blank" rel="noopener">Wishlist on Steam</a> -->
   <section id="current" class="wrap">
@@ -75,7 +75,16 @@
 
     <article class="project current">
       <div class="media">
-        <div class="placeholder">Early development · screenshots &amp; trailer coming soon</div>
+        <figure class="clip">
+          <video src="assets/img/unjustified/npc-zoom.mp4" poster="assets/img/unjustified/npc-zoom-poster.jpg" autoplay muted loop playsinline aria-label="Unjustified: clicking a contestant to read them"></video>
+          <span class="dev-tag">Early development footage</span>
+        </figure>
+        <div class="gallery">
+          <img src="assets/img/unjustified/ui.jpg" alt="Unjustified: every contestant's cards" loading="lazy">
+          <img src="assets/img/unjustified/spotlight.jpg" alt="Unjustified: contestants under the spotlights" loading="lazy">
+          <img src="assets/img/unjustified/table.jpg" alt="Unjustified: the poker table" loading="lazy">
+          <img src="assets/img/unjustified/alice.jpg" alt="Unjustified: talking with Alice" loading="lazy">
+        </div>
       </div>
       <div class="project-body">
         <span class="badge">Steam release in development</span>
