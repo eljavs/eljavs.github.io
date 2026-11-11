@@ -199,3 +199,6 @@ dialog#lightbox button {
 .gallery.three { grid-template-columns: repeat(3, 1fr); }
 @media (max-width: 800px) { .clips { grid-template-columns: 1fr; } .gallery.three { grid-template-columns: repeat(2, 1fr); } }
 .clips .wide { grid-column: 1 / -1; }
+.concept h2 { font-size: 1.6rem; font-weight: 600; margin: 36px 0 12px; }
+.gallery.concept-gallery { grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.gallery.concept-gallery img { aspect-ratio: 3/4; object-fit: contain; background: #fff; padding: 6px; }
