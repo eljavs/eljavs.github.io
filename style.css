@@ -202,3 +202,4 @@ dialog#lightbox button {
 .concept h2 { font-size: 1.6rem; font-weight: 600; margin: 36px 0 12px; }
 .gallery.concept-gallery { grid-template-columns: repeat(3, 1fr); gap: 12px; }
 .gallery.concept-gallery img { aspect-ratio: 3/4; object-fit: contain; background: #fff; padding: 6px; }
+.concept .credit { margin: -4px 0 14px; color: var(--muted); font-style: italic; font-size: .92rem; }
