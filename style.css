@@ -203,3 +203,5 @@ dialog#lightbox button {
 .gallery.concept-gallery { grid-template-columns: repeat(3, 1fr); gap: 12px; }
 .gallery.concept-gallery img { aspect-ratio: 3/4; object-fit: contain; background: #fff; padding: 6px; }
 .concept .credit { margin: -4px 0 14px; color: var(--muted); font-style: italic; font-size: .92rem; }
+.concept-gallery figure { margin: 0; }
+.concept-gallery figcaption { padding-top: 6px; text-align: center; color: var(--muted); font-size: .88rem; }
